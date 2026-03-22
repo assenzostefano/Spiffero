@@ -1,0 +1,10 @@
+rustup toolchain install stable --component rust-src
+
+cargo install espup --locked
+
+espup install
+
+cargo install esp-generate --locked
+
+cargo install espflash --locked
+
